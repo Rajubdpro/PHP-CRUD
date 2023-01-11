@@ -18,6 +18,7 @@ require'dbcon.php';
                         <thead>
                             <tr>
                                 <th>Id</th>
+                                <th>Name</th>
                                 <th>Email</th>
                                 <th>Phone</th>
                                 <th>Cours</th>

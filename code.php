@@ -44,7 +44,7 @@ if(isset($_POST['save_student'])){
   $course = $_POST['course'];
 
   $sql = "INSERT INTO students (name, email, phone, course)
-VALUES ('$course', '$email', '$number', '$course')";
+VALUES ('$name', '$email', '$number', '$course')";
 
 if ($conn->query($sql) === TRUE) {
   $_SESSION['message'] = "Student create succeesfully";
