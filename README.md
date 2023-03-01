@@ -2,4 +2,4 @@
 
 <!-------Overview image------->
 
-<img src = "overview-1.png";>
+<img src="overview-1.png"/>
